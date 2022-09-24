@@ -28,7 +28,7 @@ export default function DefaultNavbar() {
     <>
       <NavItem href="/" text="home" />
       <NavItem href="/about" text="about" />
-      <NavItem href="/resume" text="resume" />
+      <NavItem href="/assets/justin_peng_resume.pdf" text="resume" />
       <NavItem href="/experience" text="experience" />
       <NavItem href="/projects" text="projects" />
       <NavItem href="/contact" text="contact" />

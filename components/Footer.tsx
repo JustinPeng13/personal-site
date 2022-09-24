@@ -24,7 +24,7 @@ export default function Footer() {
           <Link href="/about">
             <a className="text-gray-500 hover:text-gray-600 transition">about</a>
           </Link>
-          <Link href="/newsletter">
+          <Link href="/assets/justin_peng_resume.pdf">
             <a className="text-gray-500 hover:text-gray-600 transition">resume</a>
           </Link>
         </div>
