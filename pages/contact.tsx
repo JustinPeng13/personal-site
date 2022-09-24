@@ -12,7 +12,7 @@ export default function Contact() {
             Justin Peng
           </h2>
           <p className="mt-4 text-gray-600 dark:text-gray-400 text-xl">
-            I'm honoured that you want to get in touch with me, even if it's negative feedback hahaha... 😟
+            I&apos;m honoured that you want to get in touch with me, even if it&apos;s negative feedback hahaha... 😟
           </p>
         </div>
       </div>

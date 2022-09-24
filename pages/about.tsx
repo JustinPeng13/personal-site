@@ -12,11 +12,11 @@ export default function About() {
             Justin Peng
           </h2>
           <p className="mt-4 text-gray-600 dark:text-gray-400 text-xl">
-            Hi! I'm glad you want to know more about me -- that's why you're on this page, right? 😅
+            Hi! I&apos;m glad you want to know more about me &mdash; that&apos;s why you&apos;re on this page, right? 😅
             <br />
             <br />
-            I'm currently a Sophomore (Year 2) majoring in Computer Science at the National University of Singapore.
-            It's definitely tough, and committing to so many activities and projects this semester was probably not the wisest choice to make 🤦‍♂️.
+            I&apos;m currently a Sophomore (Year 2) majoring in Computer Science at the National University of Singapore.
+            It&apos;s definitely tough, and committing to so many activities and projects this semester was probably not the wisest choice to make 🤦‍♂️.
             Nevertheless, I only get to be young once, and I should milk all the time I have left before I officially start working 
             (and other things I tell myself when I start to regret 😜).
             <br />

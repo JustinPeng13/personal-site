@@ -14,7 +14,7 @@ export default function Experience() {
             Justin Peng
           </h2>
           <p className="mt-4 text-gray-600 dark:text-gray-400 text-xl">
-            Are you hiring for a company I applied to? If so, I would love to be able to add your company's name at the top of this page next 😆
+            Are you hiring for a company I applied to? If so, I would love for your company to be the next entry on this page 😆
           </p>
         </div>
       </div>
@@ -27,8 +27,8 @@ export default function Experience() {
           As a Front-End Engineer, I iterated upon user interface and front-end functionality during weekly sprints according to user feedback.
           My proudest achievement is implementing a mobile-responsive community map with a search function and 4 filter components.
           <br /><br />
-          Our community is now 182 members and 34 organisations strong! Check us out at{' '}
-          <a href='https://app.interseed.co' target='_blank' className="text-blue-500">app.interseed.co</a>!
+          Our community is now 182 members and 34 organisations strong! Check us out at&nbsp;
+          <a href='https://app.interseed.co' target='_blank' rel='noopener noreferrer' className="text-blue-500">app.interseed.co</a>!
           <br /><br />
           <div className="">
             <Image src={interseedSS} objectFit='cover' />
