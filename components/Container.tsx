@@ -72,7 +72,7 @@ export default function Container({ children }) {
           </button>
         </nav>
       </div>
-      <main className="flex flex-col justify-center px-8 bg-gray-50 dark:bg-gray-900">
+      <main className="flex flex-col justify-center px-8 bg-gray-50 dark:bg-gray-900 max-w-3xl border-gray-200 dark:border-gray-700 mx-auto pb-16">
         {children}
       </main>
       <Footer />
