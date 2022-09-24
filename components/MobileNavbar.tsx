@@ -70,7 +70,7 @@ export default function MobileNavbar() {
             style={{ transitionDelay: '200ms' }}
           >
             <Link href="/assets/justin_peng_resume.pdf">
-              <a className="flex w-auto pb-4">resume</a>
+              <a target='_blank' className="flex w-auto pb-4">resume</a>
             </Link>
           </li>
           <li

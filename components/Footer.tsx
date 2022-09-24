@@ -25,7 +25,7 @@ export default function Footer() {
             <a className="text-gray-500 hover:text-gray-600 transition">about</a>
           </Link>
           <Link href="/assets/justin_peng_resume.pdf">
-            <a className="text-gray-500 hover:text-gray-600 transition">resume</a>
+            <a target='_blank' className="text-gray-500 hover:text-gray-600 transition">resume</a>
           </Link>
         </div>
         <div className="flex flex-col space-y-4">
