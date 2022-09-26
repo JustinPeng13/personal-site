@@ -49,9 +49,9 @@ export default function Home() {
       {/* WORK EXPERIENCE */}
       <h3 className="font-bold text-3xl md:text-4xl mb-6 text-black dark:text-white">Work Experience</h3>
       {/* Interseed */}
-      <div className="flex justify-center">
-        <div className="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-5 md:mt-0 md:pr-16 md:h-60">
-          <div className="flex float-right -mt-12 sm:mt-0 md:hidden overflow-hidden w-20 h-20 rounded-full border-2 border-indigo-500">
+      <div className="flex justify-center group">
+        <div className="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-5 md:mt-0 md:pr-16 md:h-60 group-hover:shadow-2xl transition">
+          <div className="flex float-right -mt-12 sm:mt-0 md:hidden overflow-hidden w-20 h-20 rounded-full border-2 border-indigo-500 shadow-lg">
             <Image src={interseedLogo} objectFit='cover' />
           </div>
           <div>
@@ -65,16 +65,16 @@ export default function Home() {
             2022-Present
           </div>
         </div>
-        <div className="hidden mt-6 -ml-10 md:block overflow-hidden w-48 h-48 rounded-full border-2 border-indigo-500">
+        <div className="hidden mt-6 -ml-10 md:block overflow-hidden w-48 h-48 rounded-full border-2 border-indigo-500 shadow-lg group-hover:shadow-2xl transition">
           <Image src={interseedLogo} objectFit='cover' />
         </div>
       </div>
       {/* SGCC */}
-      <div className="flex justify-center">
-        <div className="hidden mt-8 -mr-10 md:block z-10 overflow-hidden w-48 h-48 rounded-full border-2 border-indigo-500">
+      <div className="flex justify-center group">
+        <div className="hidden mt-8 -mr-10 md:block z-10 overflow-hidden w-48 h-48 rounded-full border-2 border-indigo-500 shadow-lg group-hover:shadow-2xl transition">
           <Image src={sgccLogo} objectFit='cover' />
         </div>
-        <div className="md:text-right max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-5 md:pl-16 md:h-60">
+        <div className="md:text-right max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-5 md:pl-16 md:h-60 group-hover:shadow-2xl transition">
           <div className="flex float-right md:float-left -mt-12 sm:mt-0 md:hidden overflow-hidden w-20 h-20 rounded-full border-2 border-indigo-500">
             <Image src={sgccLogo} objectFit='cover' />
           </div>
@@ -115,8 +115,8 @@ export default function Home() {
       {/* PERSONAL PROJECTS */}
       <h3 className="font-bold text-3xl md:text-4xl mb-6 mt-16 text-black dark:text-white">Personal Projects</h3>
       {/* TheSocialPitstop */}
-      <div className="flex justify-center">
-        <div className="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-5 md:mt-0 md:pr-16 md:h-60">
+      <div className="flex justify-center group">
+        <div className="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-5 md:mt-0 md:pr-16 md:h-60 group-hover:shadow-2xl transition">
           <div className="flex float-right -mt-12 sm:mt-0 md:hidden overflow-hidden w-20 h-20 rounded-full border-2 border-indigo-500">
             <Image src={tspLogo} objectFit='cover' />
           </div>
@@ -131,7 +131,7 @@ export default function Home() {
             2022-Present
           </div>
         </div>
-        <div className="hidden mt-6 -ml-10 md:block overflow-hidden w-48 h-48 rounded-full border-2 border-indigo-500">
+        <div className="hidden mt-6 -ml-10 md:block overflow-hidden w-48 h-48 rounded-full border-2 border-indigo-500 shadow-lg group-hover:shadow-2xl transition">
           <Image src={tspLogo} objectFit='cover' />
         </div>
       </div>
