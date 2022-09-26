@@ -64,7 +64,7 @@ export default function Experience() {
           <Link href='https://www.sgcodecampus.com/datascience-bootcamp-accelerator-2021/'>
             <a target='_blank' rel='noopener noreferrer' className="text-blue-500">IMDA&ndash;AWS Data Science Bootcamp and Accelerator Programme</a>
           </Link>
-          , I also coached 27 adult participants to achieve SMU's&nbsp;
+          , I also coached 27 adult participants to achieve SMU&apos;s&nbsp;
           <Link href='https://academy.smu.edu.sg/advanced-diploma-python-programming-and-applied-data-analytics-4731'>
             <a target='_blank' rel='noopener noreferrer' className="text-blue-500">Advanced Diploma in Python Programming and Applied Data Analytics</a>
           </Link>
@@ -79,7 +79,7 @@ export default function Experience() {
           <li>Deep reinforcement learning and hyperparameter tuning (in partnership with AWS &amp; IMDA) &mdash; 3h</li>
           <li>Python OOP and web development &mdash; 32h</li>
           <li>Swift (in partnership with Apple) &mdash; 8h</li>
-          <li>Python's PySimpleGUI module (in partnership with Radin Mas Primary School) &mdash; 8h</li>
+          <li>Python&apos;s PySimpleGUI library (in partnership with Radin Mas Primary School) &mdash; 8h</li>
         </ul>
 
         <h4 className="font-semibold text-2xl md:text-3xl my-4 text-black dark:text-white">Deep Learning Intern</h4>
