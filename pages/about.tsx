@@ -8,7 +8,7 @@ export default function About() {
         <h1 className="text-right font-bold text-5xl md:text-6xl mb-2 text-black dark:text-white">
           About Me
         </h1>
-        <h2 className="text-right text-gray-700 dark:text-gray-200 mb-2 text-3xl md:text-4xl">
+        <h2 className="text-right text-gray-700 dark:text-gray-300 mb-2 text-3xl md:text-4xl">
           Justin Peng
         </h2>
       </div>

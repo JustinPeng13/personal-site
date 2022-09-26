@@ -13,14 +13,14 @@ export default function Experience() {
         <h1 className="text-right font-bold text-5xl md:text-6xl mb-2 text-black dark:text-white">
           Work Experience
         </h1>
-        <h2 className="text-right text-gray-700 dark:text-gray-200 mb-4 text-3xl md:text-4xl">
+        <h2 className="text-right text-gray-700 dark:text-gray-300 mb-4 text-3xl md:text-4xl">
           Justin Peng
         </h2>
       </div>
 
-      <div id='interseed' className="py-8 px-8 mb-10 bg-white shadow-lg hover:shadow-2xl transition rounded-xl text-gray-600 dark:text-gray-400 text-xl">
-        <h3 className="font-bold text-3xl md:text-4xl text-black dark:text-white">Interseed.co</h3>
-        <h4 className="font-semibold text-2xl md:text-3xl mb-4 text-black dark:text-white">Front-End Engineer</h4>
+      <div id='interseed' className="py-8 px-8 mb-10 bg-neutral-50 dark:bg-neutral-900 shadow-lg hover:shadow-2xl transition rounded-xl text-gray-600 dark:text-gray-400 text-xl">
+        <h3 className="font-bold text-3xl md:text-4xl text-gray-800 dark:text-gray-200">Interseed.co</h3>
+        <h4 className="font-semibold text-2xl md:text-3xl mb-4 text-gray-800 dark:text-gray-200">Front-End Engineer</h4>
         <p>
           Interseed.co is a one-stop digital platform for all things sustainability.
           As a Front-End Engineer, I iterated upon user interface and front-end functionality during weekly sprints according to user feedback.
@@ -45,9 +45,9 @@ export default function Experience() {
         </p>
       </div>
 
-      <div id='sgcc' className="py-8 px-8 mb-10 bg-white shadow-lg hover:shadow-2xl transition rounded-xl text-gray-600 dark:text-gray-400 text-xl">
-        <h3 className="font-bold text-3xl md:text-4xl text-black dark:text-white">SG Code Campus</h3>
-        <h4 className="font-semibold text-2xl md:text-3xl mb-4 text-black dark:text-white">Course Instructor</h4>
+      <div id='sgcc' className="py-8 px-8 mb-10 bg-neutral-50 dark:bg-neutral-900 shadow-lg hover:shadow-2xl transition rounded-xl text-gray-600 dark:text-gray-400 text-xl">
+        <h3 className="font-bold text-3xl md:text-4xl text-gray-800 dark:text-gray-200">SG Code Campus</h3>
+        <h4 className="font-semibold text-2xl md:text-3xl mb-4 text-gray-800 dark:text-gray-200">Course Instructor</h4>
         <p>
           I introduced kids, teenagers, and adults to the wonderful world of programming through Python and Scratch.
           A key moment for me was watching more than 200 secondary school students from across Singapore compete with their trained deep learning models using AWS DeepRacers, after undergoing my 3-hour workshop on deep reinforcement learning.
@@ -71,7 +71,7 @@ export default function Experience() {
           &nbsp;certification.
         </p>
 
-        <h4 className="font-semibold text-2xl md:text-3xl my-4 text-black dark:text-white">Curriculum Developer</h4>
+        <h4 className="font-semibold text-2xl md:text-3xl my-4 text-gray-800 dark:text-gray-200">Curriculum Developer</h4>
         <p>
           Additionally, I devised presentation materials and complementary projects for various programmes:
         </p>
@@ -82,7 +82,7 @@ export default function Experience() {
           <li>Python&apos;s PySimpleGUI library (in partnership with Radin Mas Primary School) &mdash; 8h</li>
         </ul>
 
-        <h4 className="font-semibold text-2xl md:text-3xl my-4 text-black dark:text-white">Deep Learning Intern</h4>
+        <h4 className="font-semibold text-2xl md:text-3xl my-4 text-gray-800 dark:text-gray-200">Deep Learning Intern</h4>
         <p>
           In preparation for the Data Science Bootcamp, I conducted hyperparameter optimisation using grid search over soft-actor critic and proximal policy optimisation algorithms to
           improve performance of the DeepRacer models.
@@ -100,9 +100,9 @@ export default function Experience() {
         </p>
       </div>
 
-      <div id='nestedai' className="py-8 px-8 mb-10 bg-white shadow-lg hover:shadow-2xl transition rounded-xl text-gray-600 dark:text-gray-400 text-xl">
-        <h3 className="font-bold text-3xl md:text-4xl text-black dark:text-white">Nested Technologies</h3>
-        <h4 className="font-semibold text-2xl md:text-3xl mb-4 text-black dark:text-white">Lead Software Development Intern</h4>
+      <div id='nestedai' className="py-8 px-8 mb-10 bg-neutral-50 dark:bg-neutral-900 shadow-lg hover:shadow-2xl transition rounded-xl text-gray-600 dark:text-gray-400 text-xl">
+        <h3 className="font-bold text-3xl md:text-4xl text-gray-800 dark:text-gray-200">Nested Technologies</h3>
+        <h4 className="font-semibold text-2xl md:text-3xl mb-4 text-gray-800 dark:text-gray-200">Lead Software Development Intern</h4>
         <p>
           As the most senior software development intern, I oversaw 3 full-stack web applications deployed on AWS and a software development team of 10.
           I researched and implemented backend automation &amp; machine learning software for web scraping, automated emailing systems, and floor plan analysis.

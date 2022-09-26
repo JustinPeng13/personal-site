@@ -14,6 +14,15 @@ export default function Container({ children }) {
   // After mounting, we have access to the theme
   useEffect(() => setMounted(true), []);
 
+  useEffect(() => {
+    if (resolvedTheme === 'dark') {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
+  }, [resolvedTheme])
+  
+
   const router = useRouter();
 
   return (
