@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <Container>
       {/* INTRO */}
-      <div className="flex flex-col-reverse sm:flex-row mb-16">
+      <div className="mb-16">
         <div className="flex flex-col pr-8">
           <h1 className="text-right font-bold text-5xl md:text-6xl mb-2 text-black dark:text-white">
             Justin Peng
@@ -21,27 +21,28 @@ export default function Home() {
             Interested in applying software engineering and machine learning for <b>sustainable development 🍃</b> and <b>FinTech 💰</b>.
             Moulding the next generation of programmers.
           </p>
-          <div>
-            <Link href="/about">
-              <a className="flex float-right text-gray-600 dark:text-gray-400 leading-7 rounded-lg hover:text-gray-800 dark:hover:text-gray-200 transition-all h-6">
-                Read more
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  className="h-6 w-6 ml-1"
-                >
-                  <path
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M17.5 12h-15m11.667-4l3.333 4-3.333-4zm3.333 4l-3.333 4 3.333-4z"
-                  />
-                </svg>
-              </a>
-            </Link>
-          </div>
+
+        </div>
+        <div>
+          <Link href="/about">
+            <a className="flex float-right text-gray-600 dark:text-gray-400 leading-7 rounded-lg hover:text-gray-800 dark:hover:text-gray-200 transition-all h-6">
+              Read more
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                className="h-6 w-6 ml-1"
+              >
+                <path
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M17.5 12h-15m11.667-4l3.333 4-3.333-4zm3.333 4l-3.333 4 3.333-4z"
+                />
+              </svg>
+            </a>
+          </Link>
         </div>
       </div>
 
@@ -65,7 +66,7 @@ export default function Home() {
           </div>
         </div>
         <div className="hidden mt-6 -ml-10 md:block overflow-hidden w-48 h-48 rounded-full border-2 border-indigo-500">
-            <Image src={interseedLogo} objectFit='cover' />
+          <Image src={interseedLogo} objectFit='cover' />
         </div>
       </div>
       {/* SGCC */}
@@ -78,7 +79,7 @@ export default function Home() {
             <Image src={sgccLogo} objectFit='cover' />
           </div>
           <div>
-          <h2 className="text-indigo-500 text-3xl font-semibold">SG Code Campus</h2>
+            <h2 className="text-indigo-500 text-3xl font-semibold">SG Code Campus</h2>
             <h2 className="text-indigo-700 text-2xl font-semibold">Instructor/Curriculum Dev</h2>
             <p className="mt-2 text-gray-600">
               Taught <b>deep reinforcement learning</b>, <b>data science</b>, <b>Python</b>, and <b>Scratch</b> to adults and children. Crafted teaching materials for <b>AWS DeepRacer</b>, <b>OOP</b>, <b>web dev</b>, and <b>Swift</b>.
@@ -131,7 +132,7 @@ export default function Home() {
           </div>
         </div>
         <div className="hidden mt-6 -ml-10 md:block overflow-hidden w-48 h-48 rounded-full border-2 border-indigo-500">
-            <Image src={tspLogo} objectFit='cover' />
+          <Image src={tspLogo} objectFit='cover' />
         </div>
       </div>
 
