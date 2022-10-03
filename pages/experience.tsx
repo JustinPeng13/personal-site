@@ -1,5 +1,5 @@
 import Container from "../components/Container";
-import interseedSS from '../public/assets/interseed_screenshot.png'
+import interseedHomepage from '../public/assets/interseed_homepage.png'
 import deepracerLeague from '../public/assets/deepracer_league.jpeg'
 import deepracerGarage from '../public/assets/deepracer_garage.jpeg'
 import nestedQai from '../public/assets/nested_qai.png'
@@ -36,7 +36,7 @@ export default function Experience() {
         <div className="my-4 hover:shadow-xl transition">
           <Link href='https://app.interseed.co'>
             <a target='_blank' rel='noopener noreferrer' className="text-blue-500">
-              <Image src={interseedSS} objectFit='cover'/>
+              <Image src={interseedHomepage} objectFit='cover'/>
             </a>
           </Link>
         </div>

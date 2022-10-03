@@ -37,7 +37,7 @@ export default function About() {
           <Link href='/experience#nestedai'>
             <a className="text-blue-600">Nested Technologies</a>
           </Link>
-          , following which I taught and developed curriculum at&nbsp;
+          , following which I taught and developed curricula at&nbsp;
           <Link href='/experience#sgcc'>
             <a className="text-blue-600">SG Code Campus</a>
           </Link>
