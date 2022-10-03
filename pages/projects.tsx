@@ -15,7 +15,7 @@ export default function Projects() {
         </h2>
       </div>
 
-      <div id='interseed' className="py-8 px-8 mb-10 bg-neutral-50 dark:bg-neutral-900 shadow-lg hover:shadow-2xl transition rounded-xl text-gray-600 dark:text-gray-400 text-xl">
+      <div id='tsp' className="py-8 px-8 mb-10 bg-neutral-50 dark:bg-neutral-900 shadow-lg hover:shadow-2xl transition rounded-xl text-gray-600 dark:text-gray-400 text-xl">
         <h3 className="font-bold text-3xl md:text-4xl text-gray-800 dark:text-gray-200">TheSocialPitstop</h3>
         <h4 className="font-semibold text-2xl md:text-3xl mb-4 text-gray-800 dark:text-gray-200">Full-Stack Engineer</h4>
         <p>
