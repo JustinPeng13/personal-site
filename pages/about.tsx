@@ -4,16 +4,16 @@ import Container from "../components/Container";
 export default function About() {
   return (
     <Container>
-      <div className="flex flex-col pr-8">
-        <h1 className="text-right font-bold text-5xl md:text-6xl mb-2 text-black dark:text-white">
+      <div className="flex flex-col pr-8 sm:text-right">
+        <h1 className="font-bold text-5xl sm:text-6xl mb-2 text-black dark:text-white">
           About Me
         </h1>
-        <h2 className="text-right text-gray-700 dark:text-gray-300 mb-2 text-3xl md:text-4xl">
+        <h2 className="text-gray-700 dark:text-gray-300 mb-2 text-3xl sm:text-4xl">
           Justin Peng
         </h2>
       </div>
 
-      <div className="mt-6 text-gray-600 dark:text-gray-400 text-xl text-justify">
+      <div className="mt-6 text-gray-600 dark:text-gray-400 sm:text-xl sm:text-justify">
         <p>
           Hi! I&apos;m currently a Sophomore (Year 2) majoring in Computer Science at the National University of Singapore.
         </p>

@@ -15,13 +15,13 @@ export default function Home() {
       {/* INTRO */}
       <div className="mb-16">
         <div className="flex flex-col pr-8">
-          <h1 className="text-right font-bold text-5xl md:text-6xl mb-2 text-black dark:text-white">
+          <h1 className="sm:text-center font-bold text-5xl sm:text-6xl mb-2 text-black dark:text-white">
             Justin Peng
           </h1>
-          <h2 className="text-right text-gray-700 dark:text-gray-300 mb-4 text-3xl md:text-4xl">
+          <h2 className="sm:text-center text-gray-700 dark:text-gray-300 mb-4 text-3xl sm:text-4xl">
             Software Engineer
           </h2>
-          <p className="mt-4 text-gray-600 dark:text-gray-400 text-xl">
+          <p className="sm:text-center mt-4 text-gray-600 dark:text-gray-400 text-xl">
             Interested in applying software engineering and machine learning for <b>sustainable development 🍃</b> and <b>FinTech 💰</b>.
             Moulding the next generation of programmers.
           </p>
@@ -56,7 +56,7 @@ export default function Home() {
       <div className="flex justify-center group cursor-pointer" onClick={() => router.push('/experience#interseed')}>
         <div className='my-5 md:mt-0'>
           <Conic>
-            <div className="max-w-md py-4 px-8 bg-neutral-50 rounded-lg md:pr-16 md:h-60 dark:bg-neutral-900">
+            <div className="max-w-lg py-4 px-8 bg-neutral-50 rounded-lg md:pr-16 md:h-60 dark:bg-neutral-900">
               <div className="flex mx-auto sm:float-right md:hidden overflow-hidden w-20 h-20 rounded-full border-2 border-indigo-500 sm:shadow-lg">
                 <Image src={interseedLogo} objectFit='cover' />
               </div>
@@ -85,7 +85,7 @@ export default function Home() {
         </div>
         <div className='my-5 md:mt-0'>
           <Conic>
-            <div className="max-w-md md:text-right py-4 px-8 bg-neutral-50 rounded-lg md:pr-16 md:h-60 dark:bg-neutral-900">
+            <div className="max-w-lg md:text-right py-4 px-8 bg-neutral-50 rounded-lg md:pr-16 md:h-60 dark:bg-neutral-900">
               <div className="flex mx-auto sm:float-right md:hidden overflow-hidden w-20 h-20 rounded-full border-2 border-indigo-500 sm:shadow-lg">
                 <Image src={sgccLogo} objectFit='cover' />
               </div>
@@ -132,7 +132,7 @@ export default function Home() {
       <div className="flex justify-center group cursor-pointer" onClick={() => router.push('/projects#tsp')}>
         <div className='my-5 md:mt-0'>
           <Conic>
-            <div className="max-w-md py-4 px-8 bg-neutral-50 rounded-lg md:pr-16 md:h-60 dark:bg-neutral-900">
+            <div className="max-w-lg py-4 px-8 bg-neutral-50 rounded-lg md:pr-16 md:h-60 dark:bg-neutral-900">
               <div className="flex mx-auto sm:float-right md:hidden overflow-hidden w-20 h-20 rounded-full border-2 border-indigo-500 sm:shadow-lg">
                 <Image src={tspLogo} objectFit='cover' />
               </div>

@@ -21,10 +21,10 @@ const ConicDiv = styled.div`
     content: '';
     position: absolute;
     z-index: -2;
-    left: -60%;
-    top: -60%;
-    width: 230%;
-    height: 230%;
+    left: -75%;
+    top: -75%;
+    width: 250%;
+    height: 250%;
     background-color: ${props => props.dark ? 'rgb(17, 24, 39);' : 'rgb(250, 250, 250);'}
     // background-color: rgb(250, 250, 250);
     background-repeat: no-repeat;
