@@ -44,7 +44,7 @@ const ConicDiv = styled.div`
     background-position: 0 0;
     background-image: conic-gradient(transparent, rgba(99, 102, 241, 1), transparent 75%);
     animation: rotate 5s linear infinite;
-    transition: 0.5s;
+    transition: animation 0.5s;
   }
 
   :hover::before {

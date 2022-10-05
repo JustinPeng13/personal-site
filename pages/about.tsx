@@ -21,7 +21,7 @@ export default function About() {
         <p className="mt-6">
           My interest in programming started back when I was 13, from my school&apos;s&nbsp;
           <Link href='https://www.ri.edu.sg/learning-at-ri/year-1-4/core-subjects/computer-studies'>
-            <a target='_blank' rel='noopener noreferrer' className="text-blue-600">Computer Studies</a>
+            <a target='_blank' rel='noopener noreferrer' className="text-indigo-600 dark:text-indigo-400">Computer Studies</a>
           </Link>
           &nbsp;classes, in which I built websites in HTML, CSS, and JavaScript.
           Then, I took on the 3-year Computer Elective Programme, which introduced me to Python and the Django framework, and game development.
@@ -30,16 +30,16 @@ export default function About() {
         <p className="mt-6">
           While undergoing National Service, I spent my free time completing online programming&nbsp;
           <Link href='#courses-certifications'>
-            <a className="text-blue-600">courses</a>
+            <a className="text-indigo-600 dark:text-indigo-400">courses</a>
           </Link>
           &nbsp;and reading books on the future of AI.
           I landed a software development internship at&nbsp;
           <Link href='/experience#nestedai'>
-            <a className="text-blue-600">Nested Technologies</a>
+            <a className="text-indigo-600 dark:text-indigo-400">Nested Technologies</a>
           </Link>
           , following which I taught and developed curricula at&nbsp;
           <Link href='/experience#sgcc'>
-            <a className="text-blue-600">SG Code Campus</a>
+            <a className="text-indigo-600 dark:text-indigo-400">SG Code Campus</a>
           </Link>
           , before finally starting my Computer Science degree at NUS.
         </p>
@@ -47,16 +47,16 @@ export default function About() {
         <p className="mt-4">
           At NUS, I developed an interest in sustainability, and joined&nbsp;
           <Link href='/experience#interseed'>
-            <a className="text-blue-600">Interseed.co</a>
+            <a className="text-indigo-600 dark:text-indigo-400">Interseed.co</a>
           </Link>
           &nbsp;as a front-end engineer.
           I also embarked on various&nbsp;
           <Link href='/projects'>
-            <a className="text-blue-600">projects</a>
+            <a className="text-indigo-600 dark:text-indigo-400">projects</a>
           </Link>
           &nbsp;and joined&nbsp;
           <Link href='#activities'>
-            <a className="text-blue-600">extra-curricular activities</a>
+            <a className="text-indigo-600 dark:text-indigo-400">extra-curricular activities</a>
           </Link>
           .
         </p>
