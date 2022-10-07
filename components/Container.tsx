@@ -22,7 +22,6 @@ export default function Container({ children }) {
     }
   }, [resolvedTheme])
   
-
   const router = useRouter();
 
   return (

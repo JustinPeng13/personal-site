@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import ClientOnly from './ClientOnly';
 
-
 const ConicDiv = styled.div`
   @keyframes rotate {
     100% {
@@ -73,7 +72,7 @@ export default function Conic({ children }) {
   return (
     <ClientOnly>
       <ConicDiv dark={isDark}>
-        { children }
+        {children}
       </ConicDiv>
     </ClientOnly>
   )
