@@ -79,7 +79,7 @@ export default function Experience() {
           </li>
           <li>
             Wrote API documentation to reflect these changes and updated the
-            README file to improve the team's workflow
+            README file to improve the team&apos;s workflow
           </li>
         </ul>
         <div className="my-4">
